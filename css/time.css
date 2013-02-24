@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+body {
+  font-family:"微软雅黑", "微軟正黑體", "文泉驛微米黑", "文泉驿微米黑", "Arial";
+  font-size: 14px;
+  line-height: 24px;
+  color: #666;
+  padding-top: 30px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family:"微软雅黑", "微軟正黑體", "文泉驛微米黑", "文泉驿微米黑", "Arial";
+}
+
+input, textarea {
+  font-family:"微软雅黑", "微軟正黑體", "文泉驛微米黑", "文泉驿微米黑", "Arial";
+  font-size: 14px;
+  line-height: 24px;
+  color: #666;
+}
+
+.container {
+  width: 760px;
+}
+
+#sitename {
+  font-size: 14px;
+  line-height: 30px;
+  margin: 0;
+}
+
+#header {
+  background: #EEE;
+  border-bottom: 2px #DDD solid;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 30px;
+  z-index: 999999;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+#header h3 {
+  float: left;
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+  border-right: 2px #DDD solid;
+  padding-right: 10px;
+}
+
+#header .right {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 30px;
+}
+
+#switch {
+  float: right;
+}
+
+#switch li {
+  float: right;
+  margin-left: 10px;
+  text-align: center;
+  width: 60px;
+  height: 30px;
+  line-height: 30px;
+}
+
+#switch li a {
+  float: left;
+  width: 100%;
+  height: 100%;
+}
+
+#switch li.current a {
+  background: #DDD;
+}
+
+.section {
+  margin-top: 20px;
+}
+
+.detial {
+  border: 1px #DDD solid;
+  background: #EEE;
+  padding: 10px;
+  margin-bottom: 10px;
+  float: left;
+  width: 200px;
+  margin-left: 10px;
+}
+
+#detial {
+  overflow: hidden;
+  width: 470px;
+  margin-left: -10px;
+}
+
+#detial ul {
+  margin: 0;
+}
+
+#detial li {
+  overflow: hidden;
+  border-top: 1px #DDD solid;
+  line-height: 40px;
+  margin: 0;
+}
+
+#detial li span {
+  float: left;
+  margin-right: 10px;
+  color: #000;
+}
+
+#time {
+  width: 250px;
+}
+
+#time p {
+  overflow: hidden;
+}
+
+#time label {
+  float: left;
+  width: 30px;
+}
+
+#time input[type=submit] {
+  float: right;
+}
